@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chauhan Nayan - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: '#D4AF37', // Gold
+              secondary: {
+                DEFAULT: '#1A1A1A',
+                light: '#F5F5F5'
+              },
+              accent: '#C5A028',
+              dark: '#0F0F0F'
+            },
+            borderRadius: {
+              'none': '0px',
+              'sm': '4px',
+              DEFAULT: '8px',
+              'md': '12px',
+              'lg': '16px',
+              'xl': '20px',
+              '2xl': '24px',
+              '3xl': '32px',
+              'full': '9999px',
+              'button': '8px'
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      :root {
+        --bg-color: #0F0F0F;
+        --text-color: #E5E5E5;
+      }
+      .light {
+        --bg-color: #FFFFFF;
+        --text-color: #1A1A1A;
+      }
+      body {
+        font-family: 'Poppins', sans-serif;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        scroll-behavior: smooth;
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+      .perspective { perspective: 1000px; }
+      .card-3d { transform-style: preserve-3d; transition: transform 0.3s ease; }
+      .card-3d:hover { transform: rotateY(5deg) rotateX(5deg); }
+      .gradient-text {
+        background: linear-gradient(to right, #D4AF37, #F9D976);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      ::-webkit-scrollbar { width: 8px; }
+      ::-webkit-scrollbar-track { background: var(--bg-color); }
+      ::-webkit-scrollbar-thumb { background: #D4AF37; border-radius: 10px; }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/Nayan-portfolio/assets/index-DJeW6TSc.js"></script>
+</head>
+<body class="dark">
+    <div id="root"></div>
+</body>
+</html>
