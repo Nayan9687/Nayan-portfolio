@@ -311,7 +311,7 @@ export default function App() {
           <div className="flex flex-col lg:flex-row gap-16">
             <div className="lg:w-1/3">
               <div className="bg-white dark:bg-dark p-2 rounded-2xl border border-primary/30 overflow-hidden shadow-2xl mb-8">
-                <img src="https://ik.imagekit.io/4awlyo9bf/images/my_photo_Last.png" className="w-full h-auto rounded-xl" alt="Nayan Chauhan" />
+                <img src="https://ik.imagekit.io/wwnkxmdae1/nyn.png" className="w-full h-auto rounded-xl" alt="Nayan Chauhan" />
               </div>
               <div className="space-y-4">
                 <ContactInfoItem icon="ri-calendar-event-line" label="Date of Birth" value="22 April 2000" />
